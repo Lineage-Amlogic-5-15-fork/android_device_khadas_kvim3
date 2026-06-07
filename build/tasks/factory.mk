@@ -14,10 +14,10 @@
 # limitations under the License.
 #
 
-ifneq ($(filter radxa0 radxa0_car radxa0_tab,$(TARGET_DEVICE)),)
+ifneq ($(filter kvim3 kvim3_car kvim3_tab,$(TARGET_DEVICE)),)
 
-LOCAL_PATH := device/radxa/radxa0
-FACTORY_PATH := device/radxa/radxa0/factory
+LOCAL_PATH := device/khadas/kvim3
+FACTORY_PATH := device/khadas/kvim3/factory
 
 RADIO_FILES := $(wildcard $(FACTORY_PATH)/bootfiles/*)
 $(foreach f, $(notdir $(RADIO_FILES)), \
