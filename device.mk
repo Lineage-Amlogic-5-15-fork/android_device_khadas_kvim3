@@ -27,6 +27,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/Vendor_0001_Product_0001.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_0001_Product_0001.kl
 
+## Platform
+TARGET_AMLOGIC_SOC := g12b
 
 ## TEE
 TARGET_HAS_TEE := false
