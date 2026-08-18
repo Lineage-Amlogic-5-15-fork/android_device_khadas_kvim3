@@ -12,7 +12,6 @@ from extract_utils.main import (
 module = ExtractUtilsModule(
     'kvim3',
     'khadas',
-    skip_main_proprietary_file=True,
 )
 
 if __name__ == '__main__':
