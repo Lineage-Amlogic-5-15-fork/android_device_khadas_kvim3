@@ -9,9 +9,14 @@ from extract_utils.main import (
     ExtractUtilsModule,
 )
 
+namespace_imports = [
+    'vendor/amlogic/g12-common',
+]
+
 module = ExtractUtilsModule(
     'kvim3',
     'khadas',
+     namespace_imports=namespace_imports,
 )
 
 if __name__ == '__main__':
